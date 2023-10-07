@@ -1,5 +1,84 @@
+hr {
+    height: 30px;
+    width: 100%;
+    border: none;
+}
+
 .row1 {
-    width: 1920px;
+    background: linear-gradient(to right, red 50%, blue 50%); 
+}
+.row2 {
+    background: linear-gradient(to right, green 95%, blue 5%); 
+}
+.row3 {
+    background: linear-gradient(to right, red 5%, green 5% 95%, blue 5%);   
+}
+.row4 {
+    background: linear-gradient(to right, red 95%, blue 5%);  
+}
+.row5 {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: green;
+}
+.red-box {
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    margin-top: 1px;
+    background: red;
+}
+
+.row6 {
+    background: linear-gradient(to right, red 48%, blue 48% 52%, red 52% 100%);
+}
+
+.container {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background: blue;
+}
+
+.row7 {
+    margin: auto;
+    width: 100%;
     height: 10px;
-    position: absolute;
+    background: green;
+}
+
+.row7-red {
+    background: red;
+    height: 30px;
+    width: 3%;
+}
+
+.cont-row8 {
+    height: 30px;
+    width: 100%;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-yellow {
+    height: 30px;
+    width: 30px;
+    background: yellow;
+}
+
+.cont-row9 {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background: yellow;
+}
+
+.box-green {
+    height: 30px;
+    width: 10px;
+    background: green;
+    margin: 0 auto;
+    /* margin-left: 216px; */
 }

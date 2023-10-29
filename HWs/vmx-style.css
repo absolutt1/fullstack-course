@@ -2,9 +2,15 @@ body {
     margin: 0;
     padding: 0%;
 }
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
 .main {
     display: flexbox;
-    background-color: #7115fb;
+    background: #7115fb;
     height: 768px;
     width: 100%;
 }
@@ -22,7 +28,7 @@ body {
     position: fixed;
     top: 0;
     opacity: 0.95;
-    z-index: 1000;
+    z-index: 50;
     width: 100%;
 }
 .title {
@@ -50,16 +56,17 @@ body {
     height: 40px;
     width: 150px;
     border-radius: 15px;
+    text-align: center;
     background-color: yellow;
 }
 .zakaz {
-    color: blueviolet;
+    color:#7115fb;
     margin: 0 auto;
     margin-top: 10px;
 }
 .text {
-    width: 1000px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto; 
     margin-top: 100px;
     color: white;
     font-family: "Segoe UI";
@@ -307,3 +314,110 @@ body {
     border-radius: 10px;
     
 }
+
+@media only screen and (max-width: 768px) {
+    .home-container {
+        width: 100%;
+        height: 50px;
+    }
+    .home {
+        height: 40px;
+        width: 55%;
+    }
+    .title {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .content {
+        margin-inline: 15px;
+        font-size: 11px;
+    }
+    .container-center {
+        margin-top: 12px;
+        
+    }
+    .button {
+        margin-top: 15px;
+        height: 25px;
+        width: 80%;
+        margin-right: 10px;
+    }
+    .zakaz {
+        font-size: 9px;
+        font-weight: 900;
+        font-family: 'Segoe UI';
+        margin: 0 auto;
+    }
+    .text {
+        font-size: 35px;
+        width: 80%;
+    }
+    .main {
+        height: 844px;
+    }
+    .contacts img {
+        margin-top: 175px;
+        width: 80%;
+        height: 80%;
+    }
+    .page-2 {
+        width:auto;
+    }
+    .personalization {
+        margin-inline: 7px;
+    }
+    .text-p {
+        width: 100%;
+        font-size: 20px;
+        margin-inline: 5px;
+    }
+    .sub-text-p {
+        font-size: 18px;
+        
+    }
+    .sub-items-p {
+        width: 200px;
+    }
+    .more-p {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    .sub-items-p img {
+        position: absolute;
+        top: -130px;
+        right: 60px;
+        width: 120px;
+        height: 120px;
+    }
+    .video-prod {
+        margin-inline: 7px;
+    }
+    .text-v {
+        width: 100%;
+        font-size: 20px;
+        margin-inline: 5px;
+    }
+    .sub-text-v {
+        font-size: 18px;
+    }
+    .sub-items-v {
+        width: 200px;
+    }
+    .more-v {
+        margin-left: 10px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        width: 150px;
+    }
+    .sub-items-v img {
+            position: absolute;
+        top: -130px;
+        right: 55px;
+        width: 110px;
+        height: 110px;
+    }
+    .cases h1 {
+        left: 10%;
+    }
+    
+} 

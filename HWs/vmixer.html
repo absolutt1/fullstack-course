@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>videoMixer - Arnar Production</title>
     <link rel="stylesheet" href="vmx-style.css">
-    <script src="index.js"></script>
+    <script src="vmixer-script.js"></script>
 </head>
 <body>
     <div class="main">
@@ -13,11 +13,11 @@
             <div class="home">
                 <div class="title">videoMixer</div>
                 <div class="container-center">
-                    <div class="content">Главная</div>
-                    <div class="content">Кейсы</div>
-                    <div class="content">Продукты</div>
+                    <a onmouseenter="MouseEnter(this)" onmouseleave="MouseLeave(this)" class="content" href="https://videomixer.ru/">Главная</a>
+                    <a onmouseenter="MouseEnter(this)" onmouseleave="MouseLeave(this)" class="content" href="https://videomixer.ru/cases">Кейсы</a>
+                    <a onmouseenter="MouseEnter(this)" onmouseleave="MouseLeave(this)" class="content" href="https://videomixer.ru/">Продукты</a>
                 </div>
-                <div class="button">
+                <div onmouseenter="MouseEnterHomeButton(this)" onmouseleave="MouseLeaveHomeButton(this)" class="button">
                     <p1 class="zakaz">Заказать ролик</p1>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                     Делим аудиторию на сегменты и показываем каждому персональное обращение
                 </div>
                 <div class="sub-items-p"> 
-                    <div class="more-p">
+                    <div onmouseenter="MouseEnterMoreButton(this)" onmouseleave="MouseLeaveMoreButton(this)" class="more-p">
                         <p1>Подробнее</p1>
                     </div>
                     <img src="https://thumb.tildacdn.com/tild6164-3837-4766-a234-303962633231/-/resize/392x/-/format/webp/Direct_Hit.png"
@@ -58,7 +58,7 @@
                     Знаем, как вовлечь в коммуникацию и выгодно показать продукт
                 </div>
                 <div class="sub-items-v">
-                    <div class="more-v">
+                    <div onmouseenter="MouseEnterMoreButton(this)" onmouseleave="MouseLeaveMoreButton(this)" class="more-v">
                         <p1>Подробнее</p1>
                     </div>       
                     <img src="https://thumb.tildacdn.com/tild3564-3137-4233-a563-363761313633/-/resize/392x/-/format/webp/Film_Frames.png"
@@ -79,7 +79,7 @@
             <img class="other-cases" src="C:\Users\arnar\OneDrive\Documents\GitHub\FullStack-Course\HWs\vmixer-cases\Screenshot 2023-10-15 220713.png"
             width="1000px" height="700px">
         </div>
-        <div class="button-case"> 
+        <div onmouseenter="MouseEnterCase(this)" onmouseleave="MouseLeaveCase(this)" class="button-case"> 
             <p1 class="cases-t">Смотреть все кейсы</p1>
             <div class="cases-num">
                 45
@@ -101,19 +101,19 @@
     <div class="about"> 
         <div class="about-t">
             <h1>videoMixer</h1>
-            <p><a class="plain-link-a" href="https://videomixer.ru/production">⚡ OLV production</a></p>
-            <p><a class="plain-link-a" href="https://videomixer.ru/policy">Политика конфиденциальности</a></p>
+            <p><a onmouseenter="MouseEnterAbout(this)" onmouseleave="MouseLeaveAbout(this)" class="plain-link-a" href="https://videomixer.ru/production">⚡ OLV production</a></p>
+            <p><a onmouseenter="MouseEnterAbout(this)" onmouseleave="MouseLeaveAbout(this)" class="plain-link-a" href="https://videomixer.ru/policy">Политика конфиденциальности</a></p>
         </div>
         <div class="about-n"> 
             <h2>Навигация</h2>
-            <p><a class="plain-link-a" href="https://videomixer.ru/">Главная</a></p>
-            <p><a class="plain-link-a" href="https://videomixer.ru/#submenu:more">Продукты</a></p>
-            <p><a class="plain-link-a" href="https://videomixer.ru/cases">Кейсы</a></p>
+            <p><a onmouseenter="MouseEnterAbout(this)" onmouseleave="MouseLeaveAbout(this)" class="plain-link-a" href="https://videomixer.ru/">Главная</a></p>
+            <p><a onmouseenter="MouseEnterAbout(this)" onmouseleave="MouseLeaveAbout(this)" class="plain-link-a" href="https://videomixer.ru/#submenu:more">Продукты</a></p>
+            <p><a onmouseenter="MouseEnterAbout(this)" onmouseleave="MouseLeaveAbout(this)" class="plain-link-a" href="https://videomixer.ru/cases">Кейсы</a></p>
         </div>
         <div class="about-c">
             <h2>Контакты</h2>
             <p>Алматы, Қазақстан</p>
-            <p><a class="plain-link-a" href="mailto:<EMAIL>">hello@arnold.kz<EMAIL></a></p>
+            <p><a onmouseenter="MouseEnterAbout(this)" onmouseleave="MouseLeaveAbout(this)" class="plain-link-a" href="mailto:<EMAIL>">hello@arnold.kz<EMAIL></a></p>
             <img src="https://thumb.tildacdn.com/tild6133-3833-4162-a531-633935386233/-/resize/152x/-/format/webp/skolkovo.png"
             width="70px" height="50px">
         </div>

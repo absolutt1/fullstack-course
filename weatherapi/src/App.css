@@ -12,7 +12,7 @@ img {
 }
 .container {
     width: 350px;
-    height: 250px;
+    height: 230px;
     background-color: white;
     border-radius: 20px;
     overflow: auto;
@@ -30,7 +30,8 @@ img {
 }
 
 input {
-    width: 350px;
+    width: 200px;
+    font-size: 20px;
     border-radius: 4px;
 }
 

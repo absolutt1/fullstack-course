@@ -7,8 +7,6 @@ const App = ( ) => {
     const [data, setData] = useState([]);
     const [location, setLocation] = useState('Almaty');
     const apiKey = '7ab17fd4be83434f818142758232211';
-
-    
     
     useEffect(() => {
         const getData = async () => {
@@ -33,7 +31,7 @@ const App = ( ) => {
             <div>
                 <input onKeyDown={updateTxt} defaultValue={"Type in your City..."}></input>
                 <div className="container">
-                    <div className="main"> 
+                    <div className="main">     
                         <div className="content">
                             <p1 className="condition" style={{fontWeight: "bold"}}>{location}, {data.location?.country}</p1>
                             <br>

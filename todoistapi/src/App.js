@@ -6,6 +6,7 @@ const ToDoist = ( ) => {
 	const [data, setData] = useState([]);
 	const [input, setInput] = useState('');
 	const [check, setCheck] = useState([]);
+	
 
 	const addItem = () => {
 		setData ((prevData) => [...prevData, {id: prevData.length + 1, todo: input}]);
